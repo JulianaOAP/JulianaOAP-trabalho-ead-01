@@ -14,9 +14,6 @@
       $integrante3Nome        = $_POST['integrante3Nome'];
       $integrante3Data        = $_POST['integrante3Data'];
       $integrante3Instrumento = $_POST['integrante3Instrumento'];
-      $integrante4Nome        = $_POST['integrante4Nome'];
-      $integrante4Data        = $_POST['integrante4Data'];
-      $integrante4Instrumento = $_POST['integrante4Instrumento'];
       $biografiaBanda         = $_POST['biografiaBanda'];
       $corFundo               = $_POST['corFundo'];
       $corTexto               = $_POST['corTexto'];        
@@ -66,11 +63,6 @@
         <td><?php echo $integrante3Nome; ?><td> 
         <td><?php echo $integrante3Data; ?><td>
         <td><?php echo $integrante3Instrumento; ?><td>
-      </tr>
-      <tr>
-        <td><?php echo $integrante4Nome; ?><td> 
-        <td><?php echo $integrante4Data; ?><td>
-        <td><?php echo $integrante4Instrumento; ?><td>
       </tr>
 <html>
     
